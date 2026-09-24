@@ -66,7 +66,47 @@ Configured group membership to practice organizing users based on roles and acce
 
 ## Screenshots
 
-Screenshots documenting the configuration and implementation of the lab are included in this repository.
+### DC01 Server Setup
+Configured the Windows Server virtual machine as DC01.
+
+![DC01 Server Setup](01-DC01-Server-Setup.png)
+
+### Active Directory Domain Services
+Installed Active Directory Domain Services (AD DS) on DC01.
+
+![AD DS Installation](03-ADDS-Installation-Success.png)
+
+### Domain Controller Configuration
+Configured DC01 as the domain controller for the `corp.local` domain.
+
+![Domain Controller Configuration](04-Domain-Controller-Configuration.png)
+
+![DC01 Domain Controller](05-DC01-Domain-Controller.png)
+
+### DNS Verification
+Verified DNS configuration and records for the `corp.local` domain.
+
+![DNS Verification](08-DNS-Verification.png)
+
+### Organizational Units
+Created OUs to organize users, groups, computers, and administrators.
+
+![Organizational Units](09-Organizational-Units.png)
+
+### Domain Users
+Created Alice Johnson, Bob Smith, and Charlie Brown in the `Corp-Users` OU.
+
+![Domain Users](11-AD-Test-Users.png)
+
+### Security Groups
+Created Global Security groups for IT, HR, and Finance.
+
+![Security Groups](12-Security-Groups-Created.png)
+
+### Group Membership
+Assigned users to security groups to practice role-based organization and access management.
+
+![Finance Group Membership](09-Finance-Group-Membership.png)
 
 ## Project Status
 
